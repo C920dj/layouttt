@@ -6,15 +6,14 @@ body {
 .container {
   max-width: 600px;
   margin: 40px auto;
-  border: 6px solid #222; /* Outer thick frame */
+  border: 6px solid #222; /
   padding: 0;
   box-sizing: border-box;
   background: #3671e0;
 }
 
 header {
-  border-bottom: 6px solid #222; /* Only bottom, avoids double with container */
-  padding: 16px;
+  border-bottom: 6px solid #222; /
   font-size: 1.2em;
   text-align: center;
 }
@@ -29,7 +28,7 @@ header {
 .sidebar {
   grid-row: 1 / 4;
   grid-column: 1 / 2;
-  border-right: 6px solid #222; /* Only right border */
+  border-right: 6px solid #222; /
   padding: 16px;
   background: #0d8abb;
 }
@@ -42,7 +41,7 @@ header {
 }
 
 .subheader {
-  border-bottom: 6px solid #222; /* Single bottom line */
+  border-bottom: 6px solid #222; /
   padding: 12px;
   background: #1277ca;
 }
@@ -54,7 +53,8 @@ header {
 }
 
 .subfooter {
-  border-top: 6px solid #222; /* Single top line */
+  border-top: 6px solid #222; /
   padding: 12px;
-  background: #110396;
+  background: #110396;  
 }
+
